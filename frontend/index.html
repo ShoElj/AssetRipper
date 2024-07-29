@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AssetRipper</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AssetRipper</h1>
+        <div class="controls">
+            <input type="text" id="urlInput" placeholder="Enter website URL">
+            <button id="fetchAssetsButton">Fetch Assets</button>
+            <div class="filter-sort">
+                <label for="filter">Filter by type:</label>
+                <select id="filter">
+                    <option value="all">All</option>
+                    <option value="png">PNG</option>
+                    <option value="jpeg">JPEG</option>
+                    <option value="gif">GIF</option>
+                </select>
+                <label for="sort">Sort by:</label>
+                <select id="sort">
+                    <option value="size">Image size</option>
+                    <option value="name">Image name</option>
+                </select>
+            </div>
+        </div>
+        <div class="search">
+            <input type="text" id="searchInput" placeholder="Search for images...">
+        </div>
+        <div id="imagesContainer" class="grid"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
