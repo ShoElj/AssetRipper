@@ -1,7 +1,3 @@
-
-Sure! Here’s a sample README file description for your project AssetRipper:
-
-AssetRipper
 AssetRipper is a simple yet powerful tool designed to download all image assets from a specified URL. With just a few clicks, you can easily gather all images from any website, making it a perfect solution for web developers, designers, and content creators who need to collect visual assets efficiently.
 
 Features
